@@ -1,5 +1,5 @@
 # gin-limit
-Limit the number of simultaneous HTTP connections with this Gin middleware.
+Limit the number of simultaneous HTTP connections with this Gin middleware. When the connection limit is reached, it refuses new connections and returns HTTP 503. 
 
 ## Example
 ```go
